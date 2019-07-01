@@ -1,0 +1,9 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": ["IE 7"], "loose": true }],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-react-inline-elements"
+  ]
+}
